@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* P r o p r i e t a r y  N o t i c e */
+.sds-dialog > div {
+  border-radius: 4px 4px 4px 4px !important;
+  border-color: var(--sds-color-border-dialog) !important;
+  border-width: 4px !important;
+  box-shadow: 3px !important;
+
+}
+.sds-dialog > div > kendo-dialog-titlebar {
+  background-color: var(--sds-color-background-dialog-title) !important;
+  padding: 0.5rem !important;
+}
+.sds-dialog > div > kendo-dialog-titlebar > .k-window-title {
+  font-family: 'Segoe UI Variable Text', 'Segoe UI', Inter, system-ui, -apple-system,  Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif !important;
+  font-size: 0.75rem !important;
+  font-weight: 400 !important;
+  line-height: 1rem !important;
+  letter-spacing: normal !important;
+  display: block !important;
+  text-align: left !important;
+  color: var(--sds-color-text-dialog-title) !important;
+}
+.sds-dialog > div > kendo-dialog-titlebar > div > .k-button-md.k-icon-button {
+  color: var(--sds-color-icon-dialog-close) !important;
+  padding: 0px !important;
+}
+.sds-dialog > div > .k-window-content {
+  background-color: var(--sds-color-background-dialog-container);
+  padding-block: 1.5rem !important;
+  padding-inline: 1.5rem !important;
+}
+.sds-dialog > div > .k-dialog-actions {
+  background-color: var(--sds-color-background-dialog-container);
+  border-width: 0px !important;
+  padding: 0px 1.5rem 1.5rem 1.5rem !important;
+}
+.but-color
+{
+    background-color: red !important;
+}
+.sds-button-primary:not(:disabled) {
+    background-color: var(--sds-color-background-button-primary-active) !important;
+  }
+  .sds-button-secondary:not(:disabled) {
+    border-color: var(--sds-color-border-button-secondary-active) !important;
+} 
+.sds-button-primary {
+    /* --mdc-typography-button-font-family: 'Segoe UI Variable Text', 'Segoe UI', Inter, system-ui, -apple-system, Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif; */
+    --mdc-typography-button-font-size: var(--sds-typography-font-size-button-l);
+    --mdc-typography-button-font-weight: var(--sds-typography-font-weight-button-l);
+    --mdc-typography-button-letter-spacing: var(--sds-typography-letter-spacing-button);
+    --mdc-typography-button-text-transform: none;
+    height: 1.5rem;
+    padding: 0 1.5rem 0 1.5rem;
+    will-change: auto !important;
+}

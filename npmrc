@@ -1,0 +1,3 @@
+#registry=https://registry.npmjs.org
+#@allscripts:=http://sunrise-cm-repo.rd.allscripts.com:4873/ 
+registry=http://sunrise-cm-repo.rd.allscripts.com:4873/ 
